@@ -1,7 +1,7 @@
 
 body{
     
-    background-color:rgb(34, 34, 34); 
+    background-color:rgb(32, 1, 23);
     color:white;
     font-family:poppinsregular;
     max-width: 1200px;
@@ -17,7 +17,7 @@ body{
 
  #title {
     flex-direction: column;
-    line-height: 10px;
+    line-height: 15px;
  }
  li{
     display: inline-block;
@@ -29,17 +29,17 @@ body{
 }
 
 a:hover{
-    color: rgb(132, 14, 201);
+    color: rgb(175, 43, 120);
     transition: 0,3s all ;
 }
 
 #Inscreva-se-btn{
-    border: 2px solid rgb(132, 14, 201);
+    border: 2px solid rgb(175, 43, 120);
     padding: 10px;
     border-radius: 15px;
 }
 #Inscreva-se-btn:hover{
-    background-color: rgb(132, 14, 201);
+    background-color: rgb(175, 43, 120);
     color: white;
 }
 
@@ -58,7 +58,7 @@ h2{
     font-family:poppinsmedium;
 }
 span{
-    color:rgb(132, 14, 201) ;
+    color:rgb(175, 43, 120) ;
 }
 
 p{
@@ -66,21 +66,24 @@ p{
     max-width: 500px;
     font-family: poppinslight;
 }
-img{
-    width: 580px;
 
+img{
+    width: 600px;
+}
+
+form [type = "submit"]{
+    height:50px ;
+    width: 50%;
+    background-color:rgb(175, 43, 120) ;
+    color: white;
+    font-weight: bold;
 }
 form{
     display: flex;
     flex-direction: column;
-    width: 70%;
-}
-form [type = "submit"]{
-    height:50px ;
-    width: 50%;
-    background-color:rgb(132, 14, 201) ;
-    color: white;
-    font-weight: bold;
+    
+    
+    
 }
 
 form [type = "submit"]:hover{
@@ -93,6 +96,7 @@ input{
     border-radius: 20px;
     border: nome;
     font-size: 15px;
+    
 
 
 
